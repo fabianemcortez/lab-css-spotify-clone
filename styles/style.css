@@ -6,3 +6,147 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .flex {
+  display: flex;
+  gap: 200px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+} */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.ul {
+  display: flex;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  gap: 1.9rem;
+  padding: 20px;
+}
+
+.ul li {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  gap: 0.25rem;
+}
+
+.logo {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  padding: 20px;
+}
+
+.hero-img {
+  width: 100vw;
+  height: 100vw;
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  background-repeat: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.hero-img h1 {
+  color: white;
+  font-size: 3rem;
+}
+
+.hero-img p {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.hero-img p {
+  text-align: center;
+}
+
+.box2 h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexbox2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem;
+}
+
+.songs {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.songs img {
+  align-items: center;
+  height: 60px;
+  width: 60px;
+}
+
+.hd-music {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.hd-music img {
+  align-items: center;
+  height: 60px;
+  width: 60px;
+}
+
+.stream {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.stream img {
+  align-items: center;
+  height: 60px;
+  width: 60px;
+}
+
+.flexbox2 h2 {
+  color: #00b172;
+}
